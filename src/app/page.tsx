@@ -1,9 +1,17 @@
 import React from 'react';
-import { getCertificates } from '@/lib/certificates';
-import CertificateCard from '@/components/Certificate';
+import { getCertificates } from '../lib/certificates';
+import CertificateCard from '../components/CertificateCard';
+
+type Certificate = {
+  id: string;
+  name: string;
+  courseTitle: string;
+  issuedAt: string;
+};
 
 export default function ProfilePage() {
-  const certs = getCertificates();
+  // getCertificates reads localStorage (client only). Guard for SSR.
+  const certs: Certificate[] = typeof window !== 'undefined' ? (getCertificates() as Certificate[]) : [];
 
   return (
     <section>
@@ -17,7 +25,7 @@ export default function ProfilePage() {
               <p>No certificates yet — complete a course to earn one.</p>
             </div>
           ) : (
-            certs.map((c) => <CertificateCard key={c.id} cert={c} />)
+            certs.map((c: Certificate) => <CertificateCard key={c.id} cert={c} />)
           )}
         </div>
       </div>
