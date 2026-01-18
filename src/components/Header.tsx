@@ -10,18 +10,18 @@ export default function Header() {
 
       <div className="max-w-6xl mx-auto px-4 py-4 flex items-center justify-between">
         <div className="flex items-center gap-4">
-          <Link href="/" className="text-xl font-bold focus:outline-none focus:ring-2 focus:ring-blue-500 rounded">
+          <Link href="/" className="text-xl font-bold focus:outline-none focus:ring-2 focus:ring-red-500 rounded">
             HiRed
           </Link>
 
           <nav aria-label="Primary" className="hidden sm:flex gap-4 items-center text-sm">
-            <Link href="/catalog" className="hover:underline focus:outline-none focus:ring-2 focus:ring-blue-300 rounded px-1 py-1">
+            <Link href="/catalog" className="hover:underline focus:outline-none focus:ring-2 focus:ring-red-300 rounded px-1 py-1">
               Catalog
             </Link>
-            <Link href="/dashboard" className="hover:underline focus:outline-none focus:ring-2 focus:ring-blue-300 rounded px-1 py-1">
+            <Link href="/dashboard" className="hover:underline focus:outline-none focus:ring-2 focus:ring-red-300 rounded px-1 py-1">
               Dashboard
             </Link>
-            <Link href="/profile" className="hover:underline focus:outline-none focus:ring-2 focus:ring-blue-300 rounded px-1 py-1">
+            <Link href="/profile" className="hover:underline focus:outline-none focus:ring-2 focus:ring-red-300 rounded px-1 py-1">
               Profile
             </Link>
           </nav>
