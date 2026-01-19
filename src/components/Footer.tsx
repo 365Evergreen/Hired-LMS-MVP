@@ -1,4 +1,5 @@
 import Link from 'next/link';
+import Image from 'next/image';
 
 export default function Footer() {
   return (
@@ -7,7 +8,7 @@ export default function Footer() {
         <div className="grid md:grid-cols-4 gap-8 mb-8">
           {/* Brand */}
           <div>
-            <h3 className="text-white text-lg font-bold mb-4">HiRed Learning</h3>
+            <Image src="/logo-red.png" alt="HiRed Learning Hub" width={120} height={40} className="mb-4" />
             <p className="text-sm text-gray-400">
               Empowering learners with accessible, modern education.
             </p>
