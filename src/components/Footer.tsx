@@ -8,7 +8,7 @@ export default function Footer() {
         <div className="grid md:grid-cols-4 gap-8 mb-8">
           {/* Brand */}
           <div>
-            <Image src="/logo-red.png" alt="HiRed Learning Hub" width={120} height={40} className="mb-4" />
+            <Image src="https://hiredau.com/wp-content/uploads/2026/01/logo-red.png" alt="HiRed Learning Hub" width={120} height={40} className="mb-4" />
             <p className="text-sm text-gray-400">
               Empowering learners with accessible, modern education.
             </p>

@@ -12,7 +12,7 @@ export default function Header() {
       <div className="max-w-6xl mx-auto px-4 py-4 flex items-center justify-between">
         <div className="flex items-center gap-4">
           <Link href="/" className="flex items-center focus:outline-none focus:ring-2 focus:ring-red-500 rounded">
-            <Image src="/logo-red.png" alt="HiRed Learning Hub" width={120} height={40} priority />
+            <Image src="https://hiredau.com/wp-content/uploads/2026/01/logo-red.png" alt="HiRed Learning Hub" width={120} height={40} priority />
           </Link>
 
           <nav aria-label="Primary" className="hidden sm:flex gap-4 items-center text-sm">
