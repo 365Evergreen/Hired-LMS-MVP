@@ -15,11 +15,11 @@ export default function HomePage() {
             Learn at Your Pace, Empower Your Future
           </h1>
           <p className="text-lg text-gray-600 mb-8 max-w-2xl mx-auto">
-            Modern, accessible learning management system designed to help you master new skills with clear progress tracking and professional certificates.
+            Modern, accessible learning management system designed to help you upskill with clear progress tracking and professional certificates.
           </p>
 
           <div className="flex flex-col sm:flex-row gap-4 justify-center mb-12">
-            <Link href="/catalog" className="btn-primary text-base py-3">
+            <Link href="/catalogue" className="btn-primary text-base py-3">
               Browse Courses
             </Link>
             <button
@@ -92,10 +92,10 @@ export default function HomePage() {
             Start Learning Today
           </h2>
           <p className="text-lg mb-8 text-red-100">
-            Explore our curated course catalog and begin your learning journey right now.
+            Explore our curated course catalogue and begin your learning pathway right now.
           </p>
 
-          <Link href="/catalog" className="inline-block bg-white text-red-600 px-8 py-3 rounded-md font-semibold hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-white focus:ring-offset-2 focus:ring-offset-red-600">
+          <Link href="/catalogue" className="inline-block bg-white text-red-600 px-8 py-3 rounded-md font-semibold hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-white focus:ring-offset-2 focus:ring-offset-red-600">
             View All Courses
           </Link>
         </div>

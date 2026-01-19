@@ -21,7 +21,7 @@ export default function ProfilePage() {
         {certs.length === 0 ? (
           <div className="col-span-full p-8 bg-gray-50 rounded-lg border border-gray-200">
             <p className="text-lg text-gray-700">No certificates yet — complete a course to earn one.</p>
-            <a href="/catalog" className="text-red-600 hover:underline mt-4 inline-block focus:outline-none focus:ring-2 focus:ring-red-500 rounded px-1 py-1">
+            <a href="/catalogue" className="text-red-600 hover:underline mt-4 inline-block focus:outline-none focus:ring-2 focus:ring-red-500 rounded px-1 py-1">
               Browse Courses →
             </a>
           </div>

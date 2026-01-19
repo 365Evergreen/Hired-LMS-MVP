@@ -15,7 +15,7 @@ src/app/layout.tsx (root layout, imports global styles)
 ├── Header (navigation, skip-to-content for a11y)
 ├── Routes:
 │   ├── / (landing page)
-│   ├── /catalog (course catalog)
+│   ├── /catalogue (course catalogue)
 │   ├── /course/[slug] (course player with lessons)
 │   ├── /dashboard (enrolled courses + progress)
 │   └── /profile (certificates grid)

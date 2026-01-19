@@ -15,8 +15,8 @@ export default function Header() {
           </Link>
 
           <nav aria-label="Primary" className="hidden sm:flex gap-4 items-center text-sm">
-            <Link href="/catalog" className="hover:underline focus:outline-none focus:ring-2 focus:ring-red-300 rounded px-1 py-1">
-              Catalog
+            <Link href="/catalogue" className="hover:underline focus:outline-none focus:ring-2 focus:ring-red-300 rounded px-1 py-1">
+              Catalogue
             </Link>
             <Link href="/dashboard" className="hover:underline focus:outline-none focus:ring-2 focus:ring-red-300 rounded px-1 py-1">
               Dashboard
@@ -28,7 +28,7 @@ export default function Header() {
         </div>
 
         <div className="flex items-center gap-3">
-          <Link href="/catalog" className="btn-outline">
+          <Link href="/catalogue" className="btn-outline">
             Browse Courses
           </Link>
           <Link href="/dashboard" className="btn-primary">
